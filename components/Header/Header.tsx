@@ -19,7 +19,7 @@ const Header = () => {
     >
       <div className="flex items-center w-full md:2/3">
         <Link href="/" className="font-black text-tertiary-dark">
-          Transylvania
+          My Ticket
         </Link>
 
         <ul className="flex items-center ml-5">
@@ -73,14 +73,14 @@ const Header = () => {
         </li>
 
         <li className="font-bold hover:-translate-y-2 durations-500 transition-all">
-            <Link href="/rooms" className="mr-4">
-              Rooms
+            <Link href="/concerts" className="mr-4">
+              Concerts
             </Link>
         </li>
 
         <li className="font-bold hover:-translate-y-2 durations-500 transition-all">
-            <Link href="/contacts" className="">
-              Contacts
+            <Link href="/events/" className="">
+              Events
             </Link>
         </li>
       </ul>

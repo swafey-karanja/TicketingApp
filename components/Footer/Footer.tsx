@@ -1,13 +1,13 @@
 import Link from "next/link"
 import { BiMessageAltDetail } from "react-icons/bi"
-import { BsFillSendFill, BsTelephoneOutbound } from "react-icons/bs"
+import { BsEnvelopeAtFill, BsFacebook, BsInstagram, BsTelegram, BsTelephoneOutbound, BsTwitter, BsWhatsapp } from "react-icons/bs"
 
 const Footer = () => {
   return (
     <footer className="mt-16">
       <div className="container mx-auto px-4">
         <Link href="/"  className="font-black text-tertiary-dark">
-          Transylvania
+          My Ticket
         </Link>
 
         <h4 className="font-semibold text-[40px] py-6">
@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="flex-1">
             <p>The dark forest</p>
             <div className="flex items-center py-4">
-              <BsFillSendFill />
+              <BsEnvelopeAtFill />
               <p className="ml-2">Dracula Airlines</p>
             </div>
 
@@ -34,18 +34,33 @@ const Footer = () => {
           </div>
 
           <div className="flex-1 md:text-left">
-            <p className="pb-4">Our story</p>
-            <p className="pb-4">Get in touch</p>
-            <p className="pb-4">Our privacy commitment</p>
-            <p className="pb-4">Terms of service</p>
-            <p>Customer Assistance</p>
+            <div className="flex items-center py-2">
+              <BsFacebook />
+              <p className="ml-2">Facebook</p>
+            </div>
+            <div className="flex items-center py-2">
+              <BsWhatsapp />
+              <p className="ml-2">WhatsApp</p>
+            </div>
+            <div className="flex items-center py-2">
+              <BsInstagram />
+              <p className="ml-2">Instagram</p>
+            </div>
+            <div className="flex items-center py-2">
+              <BsTwitter />
+              <p className="ml-2">Twitter</p>
+            </div>
+            <div className="flex items-center py-2">
+              <BsTelegram />
+              <p className="ml-2">Telegram</p>
+            </div>
           </div>
 
           <div className="flex-1 md:text-left">
-            <p className="pb-4"> Dining Experience</p>
-            <p className="pb-4"> Wellness</p>
-            <p className="pb-4"> Fitness</p>
-            <p className="pb-4"> Sports</p>
+            <p className="pb-4"> Privacy Policy</p>
+            <p className="pb-4"> Terms Of Service</p>
+            <p className="pb-4"> Trademarks</p>
+            <p className="pb-4"> Advertising</p>
             <p> Events</p>
           </div>
         </div>
