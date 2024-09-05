@@ -1,8 +1,9 @@
-import FeaturedRoom from "@/components/FeaturedRoom/FeaturedRoom";
+import FeaturedEvent from "@/components/FeaturedEvent/FeaturedEvent";
 import Gallery from "@/components/Gallery/Gallery";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import NewsLetter from "@/components/NewsLetter/NewsLetter";
 import PageSearch from "@/components/PageSearch/PageSearch";
+import PaymentSheet from "@/components/PaymentSheet/PaymentSheet";
 
 const Home = async () => {
 
@@ -10,8 +11,9 @@ const Home = async () => {
       <>
         <HeroSection />
         {/* <PageSearch /> */}
-        <FeaturedRoom />
-        <Gallery />
+        <FeaturedEvent />
+        {/* <Gallery showButton={false} /> */}
+        <PaymentSheet />
         <NewsLetter />
       </>
     );
