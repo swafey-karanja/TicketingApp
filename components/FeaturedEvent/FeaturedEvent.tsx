@@ -68,12 +68,12 @@ const FeaturedRoom = () => {
                 </p>
               </div>
             </div>
-            <Link 
+            {/* <Link 
               href='/events/'
               className="border h-fit text-center border-tertiary-dark text-tertiary-dark px-3 py-2 lg:py-5 lg:px-7 rounded-2xl font-bold lg:text-xl"
             >
             More Details
-          </Link>
+          </Link> */}
           </div>
       </div>
     </section>
